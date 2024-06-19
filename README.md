@@ -31,4 +31,4 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
 
 1. Download and install CUDA from here: [Cuda Toolkit 12.5 downloads](https://developer.nvidia.com/cuda-downloads) . If you are worried about Pytorch compatibility, currently [CUDA 12.1](https://developer.nvidia.com/cuda-12-1-1-download-archive) is supported by Pytorch.
 2. Download and install Visual C++ as follows:
-    * Download the Visual Studio software from <b>[here]()</b>
+    * Download the Visual Studio 2109 software from <b>[here]()</b> Unless you have a Professional or an Enterprise license, Microsoft does not give you access to Visual Studio 2019 software.
