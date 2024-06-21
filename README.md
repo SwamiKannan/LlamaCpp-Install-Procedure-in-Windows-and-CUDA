@@ -38,5 +38,5 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
     * Click on "edit environment variables for your account
         ![screenshot of start menu](images/access_environment_variables.png)
     * In the system variables section in the pop up window, click on "New"
-    * Set the variable name as "CMAKE_ARGS" and the Variable value as "-DLLAMA_CUBLAS=on -DLLAMA_BLAS_VENDOR=OpenBLAS" as shown below:
-        ![Setting CMAKE_ARGS](images/env_1.png)
+    * Set the variable name as "CMAKE_ARGS" and the Variable value as "-DLLAMA_CUBLAS=on -DLLAMA_BLAS_VENDOR=OpenBLAS" as shown below: <br>
+        <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/env_1.png" width=60%>
