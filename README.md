@@ -44,3 +44,7 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
         <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/env_2.png" width=60%>
     * Create a third system variable. Set the variable name as LLAMA_CUDA and its value to "on" as shown below and click "OK": <br>
         <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/env_3.png" width=60%>
+4. Ensure that the PATH variable for CUDA is set correctly. On installation of CUDA in step 1, the CUDA directory should have been set in PATH.
+   * Go to the environment variables as explained in step 3.
+   * Scroll through the system variables until you see a system variable named *PATH* or *path*
+6. 
