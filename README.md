@@ -26,9 +26,14 @@ I finally found the key to my solution <a href="https://forums.developer.nvidia.
 
 Basically, the only Community version of Visual Studio that was available to download from Microsoft was incompatible even with the latest version of cuda (As of writing this post, the latest version of Nvidia is CUDA 12.5). Hence, all my errors were fundamentally derived from there. Hence, I wrote down this post just to explain in detail, all the steps I took to ensure a smooth installation and running of the Llama.CPP server. 
 
-## Steps:
+## Steps (All the way from the basics):
 To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-ov-file#usage) is pretty well written and the steps are easy to follow. The problems are with getting CUDA and the C++ Desktop environment of VS to talk to each other.
 
 1. Download and install CUDA from here: [Cuda Toolkit 12.5 downloads](https://developer.nvidia.com/cuda-downloads) . If you are worried about Pytorch compatibility, currently [CUDA 12.1](https://developer.nvidia.com/cuda-12-1-1-download-archive) is supported by Pytorch.
 2. Download and install Visual C++ as follows:
     * Download the Visual Studio 2109 software from <b>[here]()</b> Unless you have a Professional or an Enterprise license, Microsoft does not give you access to Visual Studio 2019 software.
+      <TO BE COMPLETED>
+3. Set the environment variables (Ensure your Windows account has administrative rights to perform these functions)
+    * Click on the Start icon on the bottom left and type: environment
+    * Click on "edit environment variables for your account
+        ![screenshot of start menu](images/access_environment_variables.png)
