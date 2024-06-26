@@ -40,7 +40,8 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
         <img alt = "screenshot of VSC Installer launch screen" src ="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/VS Cplusplus_components.png" width=60%>
     * Make sure the following components are selected on the right side of your window: <br />
         ![](https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/VS%20Cplusplus_components_1.png) ![](https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/VS%20Cplusplus_components2.png)
-    * 
+    * Click on the "Install while downloading" link: <br />
+        <img alt = "screenshot of VSC Installer launch screen" src ="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/install_button.png" width=40%>
 3. Set the environment variables (Ensure your Windows account has administrative rights to perform these functions)
     * Click on the Start icon on the bottom left and type: environment
     * Click on "edit environment variables for your account
