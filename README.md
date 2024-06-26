@@ -38,6 +38,9 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
         <img alt = "screenshot of VSC Installer launch screen" src ="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/VS_main%20screen.png" width=60%>
     * Select the **Desktop Development with C+++** <br />
         <img alt = "screenshot of VSC Installer launch screen" src ="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/VS Cplusplus_components.png" width=60%>
+    * Make sure the following components are selected on the right side of your window: <br />
+        ![](https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/VS%20Cplusplus_components_1.png) ![](https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/VS%20Cplusplus_components2.png)
+    * 
 3. Set the environment variables (Ensure your Windows account has administrative rights to perform these functions)
     * Click on the Start icon on the bottom left and type: environment
     * Click on "edit environment variables for your account
@@ -49,6 +52,7 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
         <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/environment/env_2.png" width=60%>
     * Create a third system variable. Set the variable name as LLAMA_CUDA and its value to "on" as shown below and click "OK": <br>
         <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/environment/env_3.png" width=60%>
+    
 4. Ensure that the PATH variable for CUDA is set correctly. On installation of CUDA in step 1, the CUDA directory should have been set in PATH.
    * Go to the environment variables as explained in step 3.
    * Scroll through the system variables until you see a system variable named *PATH* or *path*
