@@ -36,6 +36,8 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
         <img alt = "screenshot of VSC Installer from the Start Menu" src ="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/VS_installer.png" width=60%>
     * Once, the application has opened, click on the Modify option: <br />
         <img alt = "screenshot of VSC Installer launch screen" src ="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/VS_main%20screen.png" width=60%>
+    * Select the **Desktop Development with C+++** <br />
+        <img alt = "screenshot of VSC Installer launch screen" src ="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/VS Cplusplus_components.png" width=60%>
 3. Set the environment variables (Ensure your Windows account has administrative rights to perform these functions)
     * Click on the Start icon on the bottom left and type: environment
     * Click on "edit environment variables for your account
