@@ -45,7 +45,7 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
 3. Set the environment variables (Ensure your Windows account has administrative rights to perform these functions)
     * Click on the Start icon on the bottom left and type: environment
     * Click on "edit environment variables for your account
-        ![screenshot of start menu](images/access_environment_variables.png)
+        ![screenshot of start menu](images/environment/access_environment_variables.png)
     * In the system variables section in the pop up window, click on "New"
     * Set the variable name as "CMAKE_ARGS" and the Variable value as "-DLLAMA_CUBLAS=on -DLLAMA_BLAS_VENDOR=OpenBLAS" as shown below and click "OK": <br>
         <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/environment/env_1.png" width=60%>
