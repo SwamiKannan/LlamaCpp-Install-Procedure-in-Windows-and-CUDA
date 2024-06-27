@@ -57,4 +57,7 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
 4. Ensure that the PATH variable for CUDA is set correctly. On installation of CUDA in step 1, the CUDA directory should have been set in PATH.
    * Go to the environment variables as explained in step 3.
    * Scroll through the system variables until you see a system variable named *PATH* or *path*
+   * Select the variable and click on "Edit".
+   * Ensure the CUDA path is configured in the list of entries provided:
+       ![](images/environment/env_path.gif)
 6. 
