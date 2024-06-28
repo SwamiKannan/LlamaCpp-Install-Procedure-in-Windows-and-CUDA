@@ -118,7 +118,10 @@ To be fair, the [README file of Llama.cpp](https://github.com/ggerganov/llama.cp
        ```
     2. **Debug** version <br />
        The syntax is similar to the Release version. The only difference is the location of server.exe
-
+       
+### RUNNING INFERENCE ON THE MODEL HOSTED ON LLAMA.CPP
+13. You will first need to install the OpenAI library. This is because Llama.CPP uses the openAI API to inference local models:
+    ```pip install openai```
        ```
        "llama.cpp\build\bin\Debug\llama-server.exe" -m "D:\Hermes-2-Pro-Llama-3-Instruct-Merged-DPO-Q4_K_M.gguf" -c 2048 --n-gpu-layers 33 --host 0.0.0.0 --port 8080`
        ```
