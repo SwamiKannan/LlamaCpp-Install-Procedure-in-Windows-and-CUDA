@@ -116,7 +116,7 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
        ```
        "llama.cpp\build\bin\Release\server.exe" -m "D:\Hermes-2-Pro-Llama-3-Instruct-Merged-DPO-Q4_K_M.gguf" -c 2048 --n-gpu-layers 33 --host 0.0.0.0 --port 8080
        ```
-    2. **Debug** version
+    2. **Debug** version <br />
        The syntax is similar to the Release version. The only difference is the location of server.exe
 
        ```
