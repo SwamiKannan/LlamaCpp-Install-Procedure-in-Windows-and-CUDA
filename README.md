@@ -34,8 +34,8 @@ To be fair, the [README file of Llama.cpp](https://github.com/ggerganov/llama.cp
 
 ### VISUAL STUDIO 2019:
 2. Download and install Visual C++ as follows:
-    * Download the Visual Studio 2109 software from <b>[here](https://www.techspot.com/downloads/7241-visual-studio-2019.html)</b>. Unless you have a Professional or an Enterprise license, Microsoft does not give you access to Visual Studio 2019 versions i.e. there is no official download of Visual Studio 2019 Community available.
-    * Run Visual Studio Installer from the Start Menu <br />
+    * Download and install the Visual Studio 2109 software from <b>[here](https://www.techspot.com/downloads/7241-visual-studio-2019.html)</b>. Unless you have a Professional or an Enterprise license, Microsoft does not give you access to Visual Studio 2019 versions i.e. there is no official download of Visual Studio 2019 Community available.
+    * Run Visual Studio Installer from the Start Menu. This software is the gateway to download all the libraries that you need to work within Visual Studio <br />
         <img alt = "screenshot of VSC Installer from the Start Menu" src ="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/VS_installer.png" width=60%>
     * Once, the application has opened, click on the Modify option: <br />
         <img alt = "screenshot of VSC Installer launch screen" src ="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/VS_main%20screen.png" width=60%>
