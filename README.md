@@ -75,4 +75,8 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
    * Ensure the CUDA path is configured in the list of entries provided:
        ![](images/environment/env_path.gif)
 ### INSTALLATION OF LLAMA-CPP
-
+8. Clone the Llama.cpp repo. You will need Python (version 3.8+ just to be safe), pip and git installed.
+    * Run the following command in your command prompt: <br />
+          ```
+          git clone https://github.com/ggerganov/llama.cpp.git
+          ```
