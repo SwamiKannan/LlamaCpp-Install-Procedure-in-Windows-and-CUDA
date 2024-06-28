@@ -60,13 +60,13 @@ To be fair, the [README file of Llama.cpp](https://github.com/ggerganov/llama.cp
     * Click on "edit environment variables for your account
         ![screenshot of start menu](images/environment/access_environment_variables.png)
     * In the system variables section in the pop up window, click on "New"
-    * Set the variable name as "CMAKE_ARGS" and the Variable value as "-DLLAMA_CUBLAS=on -DLLAMA_BLAS_VENDOR=OpenBLAS" as shown below and click "OK": <br>
+    * Set the variable name as "CMAKE_ARGS" and the Variable value as **"-DLLAMA_CUBLAS=on -DLLAMA_BLAS_VENDOR=OpenBLAS"** as shown below and click "OK": <br>
         <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/environment/env_1.png" width=60%>
 5. Set the **CUDA_PATH** variable in a similar way:
     * Similarly, create a second system variable. Set the variable name as CUDA_PATH. The Variable value should be the path to your CUDA library. Examples as below: <br>
         <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/environment/env_2.png" width=60%>
-6. Set the LLAMA_CUDA variable:
-    * Create a third system variable. Set the variable name as LLAMA_CUDA and its value to "on" as shown below and click "OK": <br>
+6. Set the **LLAMA_CUDA** variable:
+    * Create a third system variable. Set the variable name as LLAMA_CUDA and its value to **"on"** as shown below and click "OK": <br>
         <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/environment/env_3.png" width=60%>    
 7. Ensure that the PATH variable for CUDA is set correctly. On installation of CUDA in step 1, the CUDA directory should have been set in PATH.
    * Go to the environment variables as explained in step 3.
