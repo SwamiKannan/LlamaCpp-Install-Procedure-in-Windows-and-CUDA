@@ -76,6 +76,7 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
        ![](images/environment/env_path.gif)
 8. Once all the variables are configured, restart Windows.
 ### INSTALLATION OF LLAMA-CPP
+
 9. Clone the Llama.cpp repo. You will need Python (version 3.8+ just to be safe), pip and git installed.
     * Run the following command in your command prompt: <br />
           ```
@@ -83,12 +84,14 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
           ```
     * Navigate to the location where this folder "llama.cpp" is downloaded <br />
          ```cd llama.cpp```
-10a. Build the executable for usage
+
+10. Build the executable for usage
     ```
     cmake -B build -DLLAMA_CUDA=ON
     cmake --build  --config Release -j 8
     ```
-10b. For some reason, I was getting a few weird artifacts when I was using the Release version which I avoided by switching to the Debug version of the file. If you get the same issues, you can re-perform step 9 and instead of step 10a, you can build the executable as follows:
+    
+11. For some reason, I was getting a few weird artifacts when I was using the Release version which I avoided by switching to the Debug version of the file. If you get the same issues, you can re-perform step 9 and instead of step 10a, you can build the executable as follows:
      ```
      cmake -B build -DLLAMA_CUDA=ON
      cmake --build build -j 8
