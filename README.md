@@ -106,3 +106,13 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
     ```
     cmake --build build --config Release -t llama-server
     ```
+### RUN THE SERVER
+12. Setup and run the server as per your build (**Release** or **Debug**)
+    1. **Release** version
+        ```
+        <path to server.exe within llama.cpp repo> -m <path to gguf model> -c <context length> --n-gpu-layers <no. of layers to be loaded onto the GPU> --host <ip address of host - typically 0.0.0.0 or the ip address itself> --port <port that you want the server to listen on>
+        ```
+        An example is as follows:
+       ```
+       llama.cpp\build\bin\Release\server.exe" -m "D:\Hermes-2-Pro-Llama-3-Instruct-Merged-DPO-Q4_K_M.gguf" -c 2048 --n-gpu-layers 33 --host 0.0.0.0 --port 8080
+       ```
