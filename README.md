@@ -91,7 +91,7 @@ To be fair, the [README file of Llama.cpp](https://github.com/ggerganov/llama.cp
     cmake -B build -DLLAMA_CUDA=ON
     cmake --build  --config Release -j 8
     ```
-    2. The **Debug** version: For some reason, I was getting a few weird artifacts in the LLM response when I was using the Release version. I avoided these by switching to the Debug version of the build. If you face the same issues, you can re-perform step 9 and instead of step 10a, you can build the executable as follows:
+    2. The **Debug** version: For some reason, I was getting a few weird artifacts in the LLM response when I was using the Release version. I avoided these by switching to the Debug version of the build. If you face the same issues, you can re-perform step 9 and instead of step 10, you can build the executable as follows:
      ```
      cmake -B build -DLLAMA_CUDA=ON
      cmake --build build -j 8
