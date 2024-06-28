@@ -45,7 +45,6 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
         <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/VS%20Cplusplus_components_1.png" width = 40%> <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/VS%20Cplusplus_components2.png" width = 40%>
     * Click on the "Install while downloading" link: <br />
         <img alt = "screenshot of VSC Installer launch screen" src ="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/install_button.png" width=40%>
-
 3. There are 4 files that will be present in **C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\extras\visual_studio_integration\MSBuildExtensions** (Replace "v12.5" in the path to your CUDA version). These four files are:
    <ol type="a">
    <li>CUDA 11.8.props</li>
@@ -68,9 +67,8 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
         <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/environment/env_2.png" width=60%>
 6. Set the LLAMA_CUDA variable
     * Create a third system variable. Set the variable name as LLAMA_CUDA and its value to "on" as shown below and click "OK": <br>
-        <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/environment/env_3.png" width=60%>
-    
-5. Ensure that the PATH variable for CUDA is set correctly. On installation of CUDA in step 1, the CUDA directory should have been set in PATH.
+        <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/environment/env_3.png" width=60%>    
+7. Ensure that the PATH variable for CUDA is set correctly. On installation of CUDA in step 1, the CUDA directory should have been set in PATH.
    * Go to the environment variables as explained in step 3.
    * Scroll through the system variables until you see a system variable named *PATH* or *path*
    * Select the variable and click on "Edit".
