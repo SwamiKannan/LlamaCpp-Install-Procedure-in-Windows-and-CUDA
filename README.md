@@ -132,8 +132,14 @@ To be fair, the [README file of Llama.cpp](https://github.com/ggerganov/llama.cp
     import openai
 
     client = openai.OpenAI(
-    base_url="<the ip address of the server. This should be the address that you entered in Step 12>/v1", # "http://<Your api-server IP>:port"
+    base_url="<the ip address of the server. This should be the address that you entered in Step 12>:<port that you entered in step 12 e.g. 8080/v1", # "http://<Your api-server IP>:port"
     api_key = "sk-no-key-required"
     )
     ```
-       
+    An example of this would be:
+    ```
+    client = openai.OpenAI(
+    base_url="http://192.168.0.1:8080/v1",
+    api_key = "sk-no-key-required"
+    )
+    ```
