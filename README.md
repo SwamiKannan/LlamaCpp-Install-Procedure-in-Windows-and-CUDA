@@ -143,3 +143,11 @@ To be fair, the [README file of Llama.cpp](https://github.com/ggerganov/llama.cp
     api_key = "sk-no-key-required"
     )
     ```
+15. You can  now use this "client" object to run your queries:
+    ```
+    client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=messages,
+        stream=stream
+    )
+    ```
