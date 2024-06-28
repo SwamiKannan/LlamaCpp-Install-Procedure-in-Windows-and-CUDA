@@ -146,8 +146,8 @@ To be fair, the [README file of Llama.cpp](https://github.com/ggerganov/llama.cp
 15. You can  now use this "client" object to run your queries:
     ```
     client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-3.5-turbo", # <this parameter needs to be provided but is otherwise, irrelevant since the model loaded in the server is the one that will be used for inference>
         messages=messages,
-        stream=stream
+        stream=True
     )
     ```
