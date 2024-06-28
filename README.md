@@ -11,7 +11,8 @@ I was trying to install Llama.CPP with CUDA support on my system as an LLM infer
 2. [llama-cpp-python](https://pypi.org/project/llama-cpp-python/). Pretty brilliant again, but there were some <a href="https://github.com/abetlen/llama-cpp-python/issues/148">issues about it being slower than the bare-bones Llama.cpp</a>. Since, I am GPU-poor and wanted to maximize my inference speed, I decided to install [Llama.cpp](https://github.com/ggerganov/llama.cpp) on my Windows laptop. <br /><br /> <b>Oh boy!</b>
 <br /><br />
 ## Issues and attempts:
-* I struggled with this installation a lot, traversing nvidia groups due to CUDA errors, VS forums, because it wasn't detecting the CUDA installation and downloading, editing, screwing up and redownloading the Llama.cpp repo.
+* Visual Studio would not detect CUDA while making the executable. I traversed multiple discussions that on NVidia groups and VS forums that were complaining of similar errors.
+* Idownloading, editing, screwing up and redownloading the Llama.cpp repo.
 * I also saw a lot of posts that were asking for solution for errors that were similar to the ones that I saw (and there were a lot!).
 * I installed and re-installed the CMake library and the Windows SDK repeatedly to see if those libraries were creating issues.
 * I even tried editing with the MAKE file as shown <a href="https://github.com/ggerganov/llama.cpp/issues/4409"> here</a>, but to no avail. Honestly, I am not a C++ guy so I had no idea what I was doing. <br />
