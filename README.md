@@ -18,13 +18,13 @@ I was trying to install Llama.CPP with CUDA support on my system as an LLM infer
 <br />
 
 ## Solution:
-I finally found the key to my solution <a href="https://forums.developer.nvidia.com/t/cudacompile-nvcc-error-cudafe-died-with-status-0xc0000409/260651/15">here </a>. More specifically, in the screenshot below:
+I finally found the key to my problem <a href="https://forums.developer.nvidia.com/t/cudacompile-nvcc-error-cudafe-died-with-status-0xc0000409/260651/15">here </a>. More specifically, in the screenshot below:
 
 <p align ="center">
  <img align="middle" src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/nvidia_incompatibility.PNG">
 </p>
 
-Basically, the only Community version of Visual Studio that was available to download from Microsoft was incompatible even with the latest version of cuda (As of writing this post, the latest version of Nvidia is CUDA 12.5). Hence, all my errors were fundamentally derived from there. Hence, I wrote down this post just to explain in detail, all the steps I took to ensure a smooth installation and running of the Llama.CPP server. 
+Basically, the only Community version of Visual Studio that was available for download from Microsoft was incompatible even with the latest version of cuda (As of writing this post, the latest version of Nvidia is CUDA 12.5). Hence, all my errors were fundamentally derived from there. I also saw a lot of questions on forums and issues on Github repos of how various pieces of libraries just weren't working together. Hence, I wrote down this post to explain in detail, all the steps I took to ensure a smooth installation and running of the Llama.CPP server on Windows with CUDA. 
 
 ## Steps (All the way from the basics):
 To be fair, the [README file of Llama.cpp](https://github.com/ggerganov/llama.cpp?tab=readme-ov-file#usage) is pretty well written and the steps are easy to follow. The problems are with getting CUDA and the C++ Desktop environment of VS to talk to each other.
