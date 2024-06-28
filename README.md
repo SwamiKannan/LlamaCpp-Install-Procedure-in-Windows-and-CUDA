@@ -86,14 +86,23 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
          ```cd llama.cpp```
 
 10. Build the executable for usage
+    1. The **Release** version
     ```
     cmake -B build -DLLAMA_CUDA=ON
     cmake --build  --config Release -j 8
     ```
-    
-11. For some reason, I was getting a few weird artifacts when I was using the Release version which I avoided by switching to the Debug version of the file. If you get the same issues, you can re-perform step 9 and instead of step 10a, you can build the executable as follows:
+    2. The **Debug** version: For some reason, I was getting a few weird artifacts in the LLM response when I was using the Release version. I avoided these by switching to the Debug version of the build. If you face the same issues, you can re-perform step 9 and instead of step 10a, you can build the executable as follows:
      ```
      cmake -B build -DLLAMA_CUDA=ON
      cmake --build build -j 8
      ```
      ##### NOTE: The "-j 8" is optional. 'j' defines the number of workers that work in parallel to build the  executable. The more the faster, but it is still optional
+11. If you plan to deploy Llama.cpp as a server, you can build it in the following way:
+    1. For the **Release** version:
+    ```
+    cmake --build build --config Release -t llama-server
+    ```
+    2. For the **Debug** version:
+    ```
+    cmake --build build --config Release -t llama-server
+    ```
