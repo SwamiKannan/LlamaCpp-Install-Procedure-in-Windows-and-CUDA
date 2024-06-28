@@ -12,10 +12,8 @@ I was trying to install Llama.CPP with CUDA support on my system as an LLM infer
 <br /><br />
 ## Issues and attempts:
 * Visual Studio would not detect CUDA while making the executable. I traversed multiple discussions that on NVidia groups and VS forums that were complaining of similar errors.
-* Idownloading, editing, screwing up and redownloading the Llama.cpp repo.
-* I also saw a lot of posts that were asking for solution for errors that were similar to the ones that I saw (and there were a lot!).
-* I installed and re-installed the CMake library and the Windows SDK repeatedly to see if those libraries were creating issues.
-* I even tried editing with the MAKE file as shown <a href="https://github.com/ggerganov/llama.cpp/issues/4409"> here</a>, but to no avail. Honestly, I am not a C++ guy so I had no idea what I was doing. <br />
+* Tried installing stand-alone versions of CMake and the Windows SDK.
+* Even tried editing the MAKE file as shown <a href="https://github.com/ggerganov/llama.cpp/issues/4409"> here</a>, but to no avail. Honestly, I am not a C++ guy so I had no idea what I was doing. <br />
 <br />
 
 ## Solution:
