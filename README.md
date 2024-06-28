@@ -4,7 +4,7 @@
 </p>
 
 ## Introduction
-I was trying to install Llama.CPP directly on my system to run my LLM server there. Before, trying this, I had considered the following: <br />
+I was trying to install Llama.CPP with CUDA support on my system as an LLM inference server to run my multi-agent environment. I had already tried a few other options but for various reasons, they came up a cropper:<br />
 
 1. Tried using ollama, but the server is constrained on the types of roles you can use. They only allow 'system', 'user' and 'tool' roles. However, fine-tuned models like NousResearch's [Theta](https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-8B) and [Pro](https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-8B) are fine-tuned specifically for [function calling using a new role "tool".](https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-8B#prompt-format-for-function-calling) Hence, a lot of wrangling and manipulating the user instructions were required that increased my tokens per query. I couldn't get a solution for this even on their Discord server.
    On a side note, though, if the functionality of Ollama is enough for you, it is a brilliant inference server and I can't stop recommending it. <br />
