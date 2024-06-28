@@ -55,17 +55,17 @@ To be fair, the [README file of Llama.cpp](https://github.com/ggerganov/llama.cp
 
    Copy and paste all these files into the relevant Visual Studio directory: **C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations**
 ### ENVIRONMENT VARIABLES IN WINDOWS:
-4. Set the CMAKE_ARGS environment variable (Ensure your Windows account has administrative rights to perform these functions)
+4. Set the **CMAKE_ARGS** environment variable (Ensure your Windows account has administrative rights to perform these functions) as follows:
     * Click on the Start icon on the bottom left and type: environment
     * Click on "edit environment variables for your account
         ![screenshot of start menu](images/environment/access_environment_variables.png)
     * In the system variables section in the pop up window, click on "New"
     * Set the variable name as "CMAKE_ARGS" and the Variable value as "-DLLAMA_CUBLAS=on -DLLAMA_BLAS_VENDOR=OpenBLAS" as shown below and click "OK": <br>
         <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/environment/env_1.png" width=60%>
-5. Set the CUDA_PATH variable
+5. Set the **CUDA_PATH** variable in a similar way:
     * Similarly, create a second system variable. Set the variable name as CUDA_PATH. The Variable value should be the path to your CUDA library. Examples as below: <br>
         <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/environment/env_2.png" width=60%>
-6. Set the LLAMA_CUDA variable
+6. Set the LLAMA_CUDA variable:
     * Create a third system variable. Set the variable name as LLAMA_CUDA and its value to "on" as shown below and click "OK": <br>
         <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/environment/env_3.png" width=60%>    
 7. Ensure that the PATH variable for CUDA is set correctly. On installation of CUDA in step 1, the CUDA directory should have been set in PATH.
