@@ -45,6 +45,16 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
         <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/VS%20Cplusplus_components_1.png" width = 40%> <img src="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/VS%20Cplusplus_components2.png" width = 40%>
     * Click on the "Install while downloading" link: <br />
         <img alt = "screenshot of VSC Installer launch screen" src ="https://github.com/SwamiKannan/LlamaCpp-Install-Procedure-in-Windows/blob/main/images/VSC/install_button.png" width=40%>
+
+3. There are 4 files that will be present in **C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\extras\visual_studio_integration\MSBuildExtensions** (Replace "v12.5" in the path to your CUDA version). These four files are:
+   <ol type="a">
+   <li>CUDA 11.8.props</li>
+   <li>CUDA 11.8.targets</li>
+   <li>CUDA 11.8.xml</li>
+   <li>Nvda.Build.CudaTasks.v11.8.dll</li>
+   </ol>
+
+   Copy and paste all these files into the relevant Visual Studio directory: **C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations**
 ### ENVIRONMENT VARIABLES IN WINDOWS:
 4. Set the CMAKE_ARGS environment variable (Ensure your Windows account has administrative rights to perform these functions)
     * Click on the Start icon on the bottom left and type: environment
@@ -67,12 +77,4 @@ To be fair, the [README file](https://github.com/ggerganov/llama.cpp?tab=readme-
    * Ensure the CUDA path is configured in the list of entries provided:
        ![](images/environment/env_path.gif)
 ### INSTALLATION OF LLAMA-CPP
-6. There are 4 files that will be present in **C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\extras\visual_studio_integration\MSBuildExtensions** (Replace "v12.5" in the path to your CUDA version). These four files are:
-   <ol type="a">
-   <li>CUDA 11.8.props</li>
-   <li>CUDA 11.8.targets</li>
-   <li>CUDA 11.8.xml</li>
-   <li>Nvda.Build.CudaTasks.v11.8.dll</li>
-   </ol>
 
-   Copy and paste all these files into the relevant Visual Studio directory: **C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations**
